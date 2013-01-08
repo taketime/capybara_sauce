@@ -13,6 +13,7 @@ task :setup_sauce_connect do
 end
 
 # run tests
+desc %(Go run tests against sauce)
 task :run_sauce_tests =>[:setup_sauce_connect] do
   # set up tests
 
