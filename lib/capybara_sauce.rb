@@ -1,5 +1,5 @@
 
-class capybara_sauce
+class CapybaraSauce
   def self.hi
     puts "hello there!"
   end
