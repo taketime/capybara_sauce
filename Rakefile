@@ -1,8 +1,8 @@
-# require 'rubygems'
-# require 'bundler'
-# Bundler.setup
+require 'rubygems'
+require 'bundler'
+Bundler.setup
 
-# require 'rake'
+require 'rake'
 
 # start up sauce-connect
 task :setup_sauce_connect do
@@ -14,5 +14,6 @@ task :run_sauce_tests =>[:setup_sauce_connect] do
   # set up tests
   # browsers = ENV['browsers']
   # oss = ENV['oss']
-
 end
+
+task :default => 'run_sauce_tests'
