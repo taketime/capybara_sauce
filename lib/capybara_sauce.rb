@@ -1,4 +1,3 @@
-
 class CapybaraSauce
   def self.hi
     puts "hello there!"
