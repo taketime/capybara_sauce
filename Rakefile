@@ -1,8 +1,8 @@
 require 'rubygems'
-require 'bundler'
-Bundler.setup
+# require 'bundler'
+# Bundler.setup
 
-require 'rake'
+# require 'rake'
 
 # start up sauce-connect
 task :setup_sauce_connect do
