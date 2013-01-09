@@ -15,7 +15,7 @@ namespace :capybara_sauce do
 
   # run tests
   desc %(Go run tests against sauce)
-  task :run_sauce_tests =>[:setup_sauce_connect] do
+  task :run_sauce_tests => :environment do
     # set up tests
 
     # add actual sauce configuration
