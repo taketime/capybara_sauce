@@ -5,6 +5,6 @@ module CapybaraSauce
 
     rake_tasks { load "tasks/capybara_sauce.rake" }
 
-    end
+
   end
 end
