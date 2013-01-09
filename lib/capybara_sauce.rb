@@ -1,6 +1,6 @@
 require 'capybara_sauce/railtie'
 
-class CapybaraSauce
+module CapybaraSauce
   def self.hi
     puts "hello there!"
   end

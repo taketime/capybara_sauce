@@ -1,3 +1,5 @@
+require 'capybara_sauce'
+
 module CapybaraSauce
   class Railtie < Rails::Railtie
     initializer 'capybara_sauce.configure' do
