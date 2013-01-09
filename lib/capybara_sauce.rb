@@ -1,3 +1,5 @@
+require 'capybara_sauce/railtie'
+
 class CapybaraSauce
   def self.hi
     puts "hello there!"

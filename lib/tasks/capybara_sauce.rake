@@ -14,7 +14,7 @@ namespace :capybara_sauce do
   end
 
   # run tests
-  desc %(RAKEFILE Go run tests against sauce)
+  desc %(Go run tests against sauce)
   task :run_sauce_tests => :environment do
     # set up tests
 
